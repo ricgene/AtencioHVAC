@@ -1,0 +1,173 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Atencio Enterprises
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
+            .container
+                img.logo(src='assets/img/Antencio-logo.png', alt='Atencio Enterprises')
+                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    | Menu
+                    i.fas.fa-bars.ms-1
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
+                        li.nav-item
+                            a.nav-link(href='#res-services') Services
+                        li.nav-item
+                            a.nav-link(href='#vendors') Vendors
+                        li.nav-item
+                            a.nav-link(href='#contact') Contact
+        // Masthead
+        header.masthead
+            .container
+                .masthead-heading Atencio Enterprises LLC
+                .container-fluid.position-relative.px-5
+                    .row.align-items-center
+                        .col-3.text-end
+                            img.img-fluid(src='assets/img/finance.png', alt='Finance Logo', style='max-width: 100%; height: auto;')
+                        .col-6
+                            .text-center
+                                .masthead-subheading.text-uppercase.fs-3 Refrigeration
+                                .masthead-subheading.text-uppercase.fs-3 and
+                                .masthead-subheading.text-uppercase.fs-3 HVAC Services
+                .mt-4.text-center
+                    a.btn.btn-primary.btn.text-uppercase.me-2(href='#res-services') Residential
+                    a.btn.btn-danger.btn.text-uppercase(href='#com-services') Commercial
+        // Services
+        section#res-services.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Residential Services
+                    br
+                    br
+                    br
+                    br
+                .row.text-center
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-snowflake.fa-stack-1x.fa-inverse
+                        h4.my-3 A/C Install and Repair
+                    .col-md-4
+                        img(src="assets/img/pump.png" alt="Heat Pump Icon" class="img-fluid custom-icon")
+                        h4.my-3 Heat Pump
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-danger
+                            i.fas.fa-fire-flame-curved.fa-stack-1x.fa-inverse
+                        h4.my-3 Furnace Install and Repair
+        // Services
+        section#com-services.page-section.bg-secondary.text-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Commercial Services
+                    br
+                    br
+                    br
+                    br
+                .row.text-center
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-temperature-low.fa-stack-1x.fa-inverse
+                        h4.my-3 Medium and Low Temp Refrigeration Services
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-danger
+                            i.fas.fa-calendar-week.fa-stack-1x.fa-inverse
+                        h4.my-3 Commercial Ovens and Cooktops
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-dark
+                            i.fas.fa-screwdriver-wrench.fa-stack-1x.fa-inverse
+                        h4.my-3 Commercial Appliances
+                    .col-md-6
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-dark
+                            i.fas.fa-cash-register.fa-stack-1x.fa-inverse
+                        h4.my-3 Equipment Sales
+                    .col-md-6
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-igloo.fa-stack-1x.fa-inverse
+                        h4.my-3 Ice Machines
+        // Vendors
+        section#vendors.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Vendors
+            .container
+                .row.align-items-center
+                    .col-md-5.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/Hussman.svg', alt='...', aria-label='Hussmann Logo')
+                    .col-md-3.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/True.webp', alt='...', aria-label='true Logo')
+                    .col-md-1.col-sm-6.my-3
+                    .col-md-2.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/hoshizaki.png', alt='...', aria-label='hoshizaki Logo')
+                    .col-md-2.col-sm-6.my-3
+                    .col-md-4.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/LG.png', alt='...', aria-label='LG Logo')
+                    .col-md-1.col-sm-6.my-3
+                    .col-md-3.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/mitsubishi.png', alt='...', aria-label='Mitsubishi Logo')
+                    .col-md-2.col-sm-6.my-3
+
+        // Contact
+        section#contact.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Contact Us
+
+                .row.align-items-stretch.mb-5
+                    .col-md-6
+                        .contact-info
+                            h4 Email
+                            p
+                                a(href='mailto:service@atencio-enterprises.com') service@atencio-enterprises.com
+
+                    .col-md-6
+                        .contact-info
+                            h4 Phone
+                            p
+                                a(href='tel:+19705530499') +1 (970) 553-0499
+        // Footer
+        footer.footer.py-4
+            .container
+                .row.align-items-center
+                    .col-lg-4.text-lg-start
+                        | Copyright &copy; Atencio Enterprises 2024
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
